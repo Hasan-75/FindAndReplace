@@ -27,7 +27,7 @@
 			    $text = substr_replace($text, $replaceText, $pos, $searchTextLen);
 			}
 			$finalTxt = trim($text);
-			return '<span style="color:green">Done!</span>';
+			return '<span style="color:forestgreen">Done!</span>';
 		}
 	}
 
